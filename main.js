@@ -1,4 +1,5 @@
 var mouseEvent = "empty";
+console.log("canvas")
 
 
     canvas = document.getElementById('myCanvas');
@@ -6,7 +7,7 @@ var mouseEvent = "empty";
     
     color = "black";
     width_of_line = 2;
-    radius=2;
+    radius= 5;
 canvas.addEventListener("mousedown", my_mousedown);
     
     function my_mousedown(e)
